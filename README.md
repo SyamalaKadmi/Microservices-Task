@@ -115,9 +115,10 @@ Microservices application code hosted in Github repository
     ```
     3. Access the services using 
     ```
-        http://microservices.local/api/users
-        http://microservices.local/api/products
-        http://microservices.local/api/orders
-        http://microservices.local/
+      curl http://user-service:3000
+      curl http://product-service:3001
+      curl http://order-service:3002
+      curl http://gateway-service:3003
     ```
+    ![FinalOutput](Images/FinalOutput.png)
 
