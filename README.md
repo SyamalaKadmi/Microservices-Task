@@ -115,6 +115,7 @@ Microservices application code hosted in Github repository
     ```
     3. Access the services using 
     ```
+      minikube ssh
       curl http://user-service:3000
       curl http://product-service:3001
       curl http://order-service:3002
