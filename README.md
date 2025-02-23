@@ -9,7 +9,8 @@ Deploy a microservices application on Kubernetes using Minikube, implementing pr
 ## Prerequisites
 Microservices application code hosted in Github repository
 -  Fork https://github.com/mohanDevOps-arch/Microservices-Task.git to https://github.com/SyamalaKadmi/Microservices-Task.git
-- Make sure Docker & Docker Compose in installed on your machine
+
+- Make sure Docker & Docker Compose, kubectl, minikube in installed on your machine
 
 ## Instructions
 ---
@@ -49,7 +50,6 @@ Microservices application code hosted in Github repository
     ```bash
         docker-compose up
     ```
-    ![docker-compose](images/DockerComposeRun.png)
 ---
 
 ### 3. Minikube setup
