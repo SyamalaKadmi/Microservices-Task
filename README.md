@@ -97,6 +97,12 @@ Microservices application code hosted in Github repository
     ![KubernetesServices](Images/kubectl.png)
     3. Verify Ingress
     ![Ingress](Images/Ingress.png)
+   4. Check whether individual services are accessible using
+      ```
+      kubectl service <service-name>
+      ```
+      ![Service](Images/kubeVerification.png)
+      ![user-service](Images/user-service.png)
 
 3. Accessing services
     1. Fetch the minikube ip using 
