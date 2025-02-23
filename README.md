@@ -49,7 +49,6 @@ Microservices application code hosted in Github repository
     ```bash
         docker-compose up
     ```
-    ![docker-compose](images/DockerComposeRun.png)
 ---
 
 ### 3. Minikube setup
